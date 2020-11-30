@@ -1,0 +1,10 @@
+@media (max-width: 991px){
+	.features-section .features h2 {
+    font-size: 43px;
+    padding-bottom: 0px;
+	}
+	.features-section ul li {
+    font-size: 17px;
+    padding-top: 10px;
+	}
+}

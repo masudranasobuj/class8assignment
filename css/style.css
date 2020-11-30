@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{}
+header .navbar .container .edasi{
+    font-size: 37px;
+    font-weight: 600;
+}
+header .navbar .container .nav-item .nav-link{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000c2;
+    padding: 10px 20px;
+    display: inline-block;
+    transition-duration: 0.3s;
+    border-radius: 10px;
+}
+header .navbar .container .nav-item .nav-link:hover{
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+}
+.banner-section{
+	background-image: url(../images/img001.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 95vh;
+	background-position: top;
+}
+.banner-section .banner-content h1{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+.banner-content{
+    padding: 30px 10px;
+    background: #ffffff91;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+.banner-section .banner-content h4{
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.banner-section .banner-content h2{
+    font-weight: 700;
+}
+.banner-section .banner-content .btn{
+    color: white;
+    background-color: black;
+}
+
+.text-section{}
+.rul-section{
+    background: black;
+    height: 1px;
+    display: block;
+    margin: 30px;
+    width: 89%;
+    margin-left: auto;
+}
+.text-section .text-custom{
+}
+.text-section .text-custom h3{
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin: 0 17%;
+    text-transform: initial;
+}
+
+.card-section{}
+.card-section .card{} .card-body{}
+.card-section .card .card-body{}
+.card-section .card .card-body h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.card-section .card .card-body .blackrul{
+    height: 2px;
+    width: 121px;
+    background-color: #e00000;
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 13px;
+}
+.card-section .card .card-body h3{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+
+.features-section{}
+.features-section .features{}
+.features-section .features h2{
+	font-size: 50px;
+    padding-bottom: 10px;
+}
+.text p{
+	margin-top: 20px;
+}
+.features-section ul{}
+.features-section ul li{
+	font-size: 22px;
+	padding-top: 16px;
+}
+
+.pictureandparagraphsection{}
+.pictureandparagraphsection .text{
+    padding: 0px 21%;
+}
+
+.footer-section{
+	padding-bottom: 40px;
+}
+.footer-section h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.footer-section h4{
+    font-size: 18px;
+}
+.footer-section a{
+	background: black;
+	color: white;
+	font-size: 18px;
+}
+.footer-section a:hover{
+	background-color: white;
+	color: black;
+}
+.footer-section p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
