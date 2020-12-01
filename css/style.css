@@ -28,6 +28,7 @@ header .navbar .container .nav-item .nav-link:hover{
 	background-attachment: fixed;
 	min-height: 95vh;
 	background-position: top;
+	object-fit: cover;
 }
 .banner-section .banner-content h1{
     font-size: 30px;
